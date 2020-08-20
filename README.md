@@ -1,17 +1,17 @@
 # react-native-lottie
-This is a simple wrapper around [`lottie-react-native`]() for Android and iOS runtimes, and [`react-native-web-lottie`]() on the Web.
+This is a simple wrapper around [`lottie-react-native`](https://github.com/react-native-community/lottie-react-native) for Android and iOS runtimes, and [`react-native-web-lottie`](https://github.com/react-native-web-community/react-native-web-lottie) on the Web.
+
+This project saves you from having to [**tinker with webpack**](https://github.com/react-native-web-community/react-native-web-lottie#getting-started), which is great if you're not ready to `expo eject`.
 
 ## 🚀 Installing
 
-Using [`yarn`](https://yarnpkg.com):
-
-**Vanilla:**
+Using [`yarn`](https://yarnpkg.com) on `react-native init`:
 
 ```
 yarn add react-native-lottie lottie-react-native
 ```
 
-**Expo:**
+Using [`yarn`](https://yarnpkg.com) on `create-react-native-app`:
 
 ```
 yarn add react-native-lottie ; expo install lottie-react-native
