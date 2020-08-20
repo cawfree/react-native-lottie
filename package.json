@@ -1,0 +1,44 @@
+{
+  "name": "react-native-lottie",
+  "version": "0.0.1-alpha.0",
+  "description": "Lottie wrapper for React Native. (Android/iOS/Web)",
+  "private": false,
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "lottie",
+    "animation",
+    "android",
+    "ios",
+    "mobile",
+    "web"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prettify": "yarn prettier --write \"**/*.js\"",
+    "test": "jest"
+  },
+  "main": "dist",
+  "repository": "https://github.com/cawfree/react-native-lottie",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "husky": "^4.2.5",
+    "jest": "^26.4.1",
+    "leasot": "^11.1.0",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "lottie-react-native": "^3.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-native": "^0.63.2"
+  }
+}
