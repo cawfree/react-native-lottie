@@ -1,6 +1,6 @@
 {
   "name": "react-native-lottie",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "Lottie wrapper for React Native. (Android/iOS/Web)",
   "private": false,
   "keywords": [
@@ -23,6 +23,9 @@
   "repository": "https://github.com/cawfree/react-native-lottie",
   "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
   "license": "MIT",
+  "dependencies": {
+    "react-native-web-lottie": "^1.4.4
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
@@ -33,8 +36,7 @@
     "husky": "^4.2.5",
     "jest": "^26.4.1",
     "leasot": "^11.1.0",
-    "prettier": "^2.0.5",
-    "react-native-web-lottie": "^1.4.4"
+    "prettier": "^2.0.5"
   },
   "peerDependencies": {
     "lottie-react-native": "^3.5.0",
